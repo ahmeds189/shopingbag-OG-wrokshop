@@ -1,4 +1,4 @@
-$bg: #dd6969;
+@use './scss/abstracts' as *;
 
 *,
 *::before,
@@ -26,6 +26,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: $bg;
 }
 /*
     6. Improve media defaults
