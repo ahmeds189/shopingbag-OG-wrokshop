@@ -1,0 +1,53 @@
+@use '../../scss' as *;
+
+header {
+  background: $primary-blue;
+  color: #fff;
+
+  nav {
+    ul {
+      display: flex;
+      gap: 1.5rem;
+      li:nth-child(2) {
+        flex: 1;
+      }
+    }
+  }
+
+  li {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    h1 span {
+      color: $primary-gold;
+    }
+    div {
+      background: #fff;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      border-radius: 44454px;
+      overflow: hidden;
+      padding: 5px 1rem;
+      li {
+        color: $primary-blue;
+      }
+      input {
+        outline: none;
+        border: none;
+        border-right: 2px solid $primary-gray;
+      }
+
+      svg {
+        color: $primary-blue;
+        cursor: pointer;
+      }
+    }
+  }
+}
