@@ -2,7 +2,7 @@ import { categories } from './constants'
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       {categories.map((cat) => {
         const Icon = cat.icon
         return (
