@@ -5,9 +5,14 @@
   width: 3rem;
   height: 3rem;
   border-radius: 100%;
-  color: #fff;
   text-transform: uppercase;
   position: relative;
+
+  p {
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+  }
 
   span {
     width: 1.2rem;
@@ -30,7 +35,11 @@
   span {
     background-color: $primary-gold;
   }
-  color: #151515;
+  p {
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 14px;
+  }
 }
 
 .dark-gold {
