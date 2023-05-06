@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  // outline: 1px solid red;
 }
 /*
     2. Remove default margin
@@ -27,6 +28,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: $primary-gray;
+  font-family: 'Poppins', sans-serif;
 }
 /*
     6. Improve media defaults
