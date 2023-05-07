@@ -5,11 +5,6 @@ const App = () => {
   return (
     <>
       <Header />
-
-      {/* <Tooltip title="hot" color="blue" />
-      <Tooltip title="new" color="gold" />
-      <Tooltip title="hot" color="dark-gold" />
-      <Tooltip title="new" color="dark-gold" notRound /> */}
     </>
   );
 };
