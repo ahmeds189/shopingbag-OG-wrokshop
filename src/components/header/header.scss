@@ -1,7 +1,7 @@
 @use "../../scss" as *;
 
 nav.links {
-  padding: 0.8rem 0;
+  padding: 1rem 0;
   ul {
     display: flex;
     gap: 1.5rem;
@@ -45,7 +45,7 @@ nav.links {
 }
 
 nav.categoties {
-  padding: 0.8rem 0;
+  padding: 1rem 0;
   display: none;
   @include mq("md") {
     display: block;
@@ -53,7 +53,7 @@ nav.categoties {
 
   ul {
     display: flex;
-    gap: 1.5rem;
+    gap: 3.5rem;
 
     li {
       position: relative;
@@ -74,7 +74,7 @@ nav.categoties {
   align-items: center;
   justify-content: space-between;
   border-top: 2px solid $primary-blue-light;
-  padding: 1.8rem 0;
+  padding: 2rem 0;
   @include mq("md") {
     border: 2px solid $primary-blue-light;
     border-inline: none;
