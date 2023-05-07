@@ -1,0 +1,56 @@
+@use "../../scss/" as *;
+
+section.hero {
+  background-image: url(../../assets/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  padding: 1rem;
+  margin: 2rem 0;
+
+  &.type-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    background-image: url(../../assets/hero-2.jpg);
+  }
+  &.type-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    h2 {
+      font-weight: 600;
+    }
+  }
+
+  h4 {
+    color: $primary-gold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+  }
+
+  button {
+    background: $primary-gold;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5rem 0.625rem;
+    cursor: pointer;
+  }
+}

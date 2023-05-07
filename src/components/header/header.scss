@@ -53,7 +53,10 @@ nav.categoties {
 
   ul {
     display: flex;
-    gap: 3.5rem;
+    gap: 2rem;
+    @include mq("lg") {
+      gap: 3.5rem;
+    }
 
     li {
       position: relative;
@@ -116,7 +119,7 @@ nav.categoties {
   .icons {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
     & > svg:nth-of-type(1) {
       display: none;
     }
@@ -131,7 +134,7 @@ nav.categoties {
         width: 20px;
         height: 20px;
         top: -0.6rem;
-        right: -0.6rem;
+        right: -0.5rem;
         border-radius: 50%;
         color: #1a1a1a;
         @include flex-center;
