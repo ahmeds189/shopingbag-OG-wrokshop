@@ -5,6 +5,7 @@ import { MdOutlineSearch } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { HiOutlineShoppingCart, HiMenuAlt2 } from "react-icons/hi";
+import Tooltip from "../tooltip/Tooltip";
 import "./header.scss";
 
 const Links = ({ onToggle }) => (
@@ -57,6 +58,12 @@ const Categories = () => (
       {categories.map((item) => (
         <li key={item.id}>
           <a href="#">{item.name}</a>
+          {item.tooltip === "new" ? (
+            <Tooltip title="new" color="dark-gold" notRound />
+          ) : null}
+          {item.tooltip === "hot" ? (
+            <Tooltip title="hot" color="gold" notRound />
+          ) : null}
         </li>
       ))}
     </ul>

@@ -55,6 +55,14 @@ nav.categoties {
     display: flex;
     gap: 1.5rem;
 
+    li {
+      position: relative;
+      div {
+        position: absolute;
+        top: -1.5rem;
+        right: -0.8rem;
+      }
+    }
     a {
       color: #fff;
     }
