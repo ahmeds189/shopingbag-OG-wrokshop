@@ -32,7 +32,7 @@ const Links = ({ onToggle }) => (
 const Search = () => (
   <div className="search">
     <h1>
-      shoping<span>bag</span>
+      shopping<span>bag</span>
     </h1>
     <div className="bar">
       <li>
